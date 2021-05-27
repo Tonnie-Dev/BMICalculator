@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="text_units">Units :</string>
+    <string name="text_gender">Gender :</string>
+    <string name="text_for_unit_bmi">BMI</string>
+    <string name="txt_men">Men</string>
+    <string name="txt_women">Women</string>
+    <string name="txt_age">Age :</string>
+    <string name="txt_weight">Weight</string>
+    <string name="txt_height">Height</string>
+    <string name="txt_reset">Reset</string>
+    <string name="txt_calculate">Calculate</string>
+    <string name="txt_0">0</string>
+
+    <string name="toast_message_weight_height">Please Select Weight and Height</string>
+
+    <string name="toast_message_underweight_age">Underweight</string>
+    <string name="toast_message_healthy_age">Healthy</string>
+    <string name="toast_message_overweight_age">Overweight</string>
+    <string name="toast_message_obesity_age">Obesity</string>
+
+    <string name="toast_message_adult_VS_underweight">Very severely underweight</string>
+    <string name="toast_message_adult_S_underweight">Severely underweight</string>
+    <string name="toast_message_adult_underweight">Underweight</string>
+    <string name="toast_message_adult_normal">Normal (healthy weight)</string>
+    <string name="toast_message_adult_overweight">Overweight</string>
+    <string name="toast_message_adult_M_Moderately">Mode Moderately</string>
+    <string name="toast_message_adult_S_obse">Severely obese</string>
+    <string name="toast_message_adult_VS_obese">Very severely obese</string>
+
+
+
+    <string-array name="units">
+    <item>Metric</item>
+    <item>Imperial</item>
+    </string-array>
+
+</resources>
