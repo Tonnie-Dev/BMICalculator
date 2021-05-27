@@ -2,6 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'maven-publish'
 apply plugin: 'signing'
+apply plugin:'kotlin-android-extensions'
 
 android {
     compileSdkVersion 30
