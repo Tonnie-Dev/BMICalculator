@@ -25,6 +25,8 @@ class MainActivity : AppCompatActivity() {
 
     var no: Int = 0
     private val WEIGHT = "weight"
+    private val HEIGHT = "height"
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,7 +47,11 @@ class MainActivity : AppCompatActivity() {
         super.onSaveInstanceState(outState)
 
         val seekbar1 = seekbar_weight.progress
+        val seekbar2 = seekbar_height.progress
+
         outState.putInt(WEIGHT, seekbar1)
+        outState.putInt(HEIGHT, seekbar2)
+
     }
     override fun onRestoreInstanceState(savedInstanceState: Bundle) {
         super.onRestoreInstanceState(savedInstanceState)
